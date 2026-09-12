@@ -1,0 +1,12 @@
+# Локальные конфиги и данные
+.env
+data/
+*.xlsx
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest_tmp/
+pytest-cache-files-*/
+.venv/
+venv/
+tests/_tmp/

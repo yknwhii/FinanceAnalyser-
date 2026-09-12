@@ -1,0 +1,21 @@
+{
+  "name": "finance",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Локальное консольное приложение для анализа личных финансов: расходы, портфель, цели, графики.",
+  "scripts": {
+    "start": "python src/main.py",
+    "test": "python -m pytest tests --basetemp=./.pytest_tmp",
+    "test:verbose": "python -m pytest tests --basetemp=./.pytest_tmp -v",
+    "install": "python -m pip install -r requirements.txt"
+  },
+  "dependencies": {
+    "numpy": "*",
+    "pandas": "*",
+    "openpyxl": "*",
+    "matplotlib": "*",
+    "python-dotenv": "*"
+  },
+  "python": ">=3.10",
+  "platforms": ["windows"]
+}

@@ -1,0 +1,7 @@
+# Этот файл сохранён как fallback для pip.
+# Канонический список зависимостей хранится в package.json.
+numpy
+pandas
+openpyxl
+matplotlib
+python-dotenv
